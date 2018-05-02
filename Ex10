@@ -1,0 +1,10 @@
+# beadand-QD6Z9W
+ EX10
+ 
+ import math
+def smallest_positive():
+    s = math.factorial(20)
+    for i in range(1,s):
+        db = 0
+        
+
