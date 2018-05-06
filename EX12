@@ -1,0 +1,12 @@
+def prím(szam):
+
+
+    if szam==2:
+            return 'prím'
+    for i in range(2,num):
+        if szam % i == 0:
+            return 'nem prím'
+    return 'prím'
+
+
+
