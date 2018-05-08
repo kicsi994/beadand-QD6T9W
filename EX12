@@ -1,16 +1,14 @@
-def is_prime(num):
+def prím(n):
 
 
-    if num==2:
-            return 'Prime'
-    for i in range(2,num):
-        if num%i == 0:
-            return 'Not Prime'
-    return 'Prime'
+    if n==2:
+            return 'prím'
+    for i in range(2,n):
+        if n%i == 0:
+            return 'nem prím'
+    return 'prím'
 
-
-
-def EX12():
+def  prim_10001():
     m = []
     m.append(1)
     i = 1
@@ -18,14 +16,11 @@ def EX12():
     while True:
         if i==10001:
             return m[i-1]
-        elif is_prime(j) == 'Prime':
+        elif prím(j) == 'prím':
             m.append(j)
             i += 1
         j += 1
 
-
-
-print(EX12())
-
+print(prim_10001())
 
 
